@@ -18,4 +18,14 @@ LAYUI框架组件使用
 #//上面括号的demo 就必须用到lay-filter里的值
 #}）
 
+返回函数处理
+ layer.msg('登入成功', {
+            offset: '15px'
+            ,icon: 1
+            ,time: 1000
+          }, function(){
+            location.href = '__STATIC__/Home/home'; //后台主页
+          });
+
+
 

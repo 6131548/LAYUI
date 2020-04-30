@@ -9,7 +9,8 @@ LAYUI框架组件使用
     
   #提交的参数定义
   #data: obj.field 比如 name="username" 字段为usrername  lay-verify="required"为必填项
- # 按钮：<button class="layui-btn layui-btn-fluid" lay-submit lay-filter="LAY-user-login-submit1">登 入</button>
+ # 按钮：
+ #<button class="layui-btn layui-btn-fluid" lay-submit lay-filter="LAY-user-login-submit1">登 入</button>
   # 提交标志lay-submit
  #  提交对象 
 #   forms = layui.form;
